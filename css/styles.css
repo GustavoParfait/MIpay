@@ -53,7 +53,7 @@ img{
     width: 90%;
 }
 
-/*-----utilities------*/
+/*-----Start of utilities------*/
 .textCenter{
     text-align: center;
 }
@@ -61,6 +61,7 @@ img{
 .marginT5{
     margin-top: 5rem;
 }
+/*-----End of utilities------*/
 
 /*----------Start Section Header----------*/
 .header{
@@ -85,7 +86,7 @@ img{
 
 @media (min-width: 1280px){
     .header{
-        background-size: 90rem;
+        background-size: 80rem;
     }
 }
 
@@ -121,6 +122,9 @@ img{
     }
 }
 
+.navigation__link{
+    color: var(--primary);
+}
 
 @media (min-width: 768px){
     .navigation__link{
@@ -146,6 +150,24 @@ img{
     .header__heading{
         text-align: left;
         font-size: 5rem;
+        line-height: 1.2;
+    }
+}
+
+.header__button{
+    background-color: var(--primary);
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    color: var(--withe);
+    margin-bottom: 4rem;
+}
+
+@media (min-width: 768px){
+    .header__button{
+        padding: 1rem 3rem;
+        display: inline-block;
+        margin: 0;
     }
 }
 
